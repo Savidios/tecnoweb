@@ -1,0 +1,322 @@
+.logowatu1{
+    position: absolute;
+   background-color: #CCCCCC;
+   width: 100%;
+}
+
+/*gris*/
+#grisclaro{
+    width: 20%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+#titulogris{
+    font-family: 'Paytone One', sans-serif;
+    color: #3a383b;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    position: absolute;
+    top: 28%;
+    left: 40%;
+}
+
+
+.subtitulogris{
+    color: #3a383b;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    position: absolute;
+    top: 35%;
+    left: 39%;
+    font-family: quicksand;
+    font-weight: 400;
+    padding-top: 5px;
+}
+/*botoncomprar*/
+
+.contenedor-botones1{
+    width: 100%;
+    display: grid;
+    min-width: 250px;
+}
+.boton1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 70px;
+    background-color: #414141;
+    color: white;
+    font-family:quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor:pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.boton1 span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.boton1::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(48, 254, 29, 0.638);
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out all;
+
+}
+.boton1:hover::after{
+    top: 0;
+}
+.boton1{
+    top: 650%;
+    left: 40%;
+}
+/*talle S*/
+.contenedortalles1{
+    width: 100%;
+    display: grid;
+}
+.talleS1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #414141;
+    color: white;
+    font-family:quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor:pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: absolute;
+    overflow: hidden;
+}
+.talleS1 span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.talleS1::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 254, 216, 0.638);
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out all;
+
+}
+.talleS1:hover::after{
+    top: 0;
+}
+.talleS1{
+    top: 59%;
+    left: 41%;
+}
+
+/*talleM*/
+
+.talleM1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #414141;
+    color: white;
+    font-family:quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor:pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: absolute;
+    overflow: hidden;
+}
+.talleM1 span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.talleM1::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 254, 216, 0.638);
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out all;
+
+}
+.talleM1:hover::after{
+    top: 0;
+}
+.talleM1{
+    top: 59%;
+    left: 43%;
+}
+/*talleL*/
+
+.talleL1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #414141;
+    color: white;
+    font-family:quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor:pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: absolute;
+    overflow: hidden;
+}
+.talleL1 span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.talleL1::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 254, 216, 0.638);
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out all;
+
+}
+.talleL1:hover::after{
+    top: 0;
+}
+.talleL1{
+    top: 59%;
+    left: 45%;
+}
+
+/*Talle XL*/
+
+.talleXL1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #414141;
+    color: white;
+    font-family:quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor:pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: absolute;
+    overflow: hidden;
+}
+.talleXL1 span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.talleXL1::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 254, 216, 0.638);
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out all;
+
+}
+.talleXL1:hover::after{
+    top: 0;
+}
+.talleXL1{
+    top: 59%;
+    left: 47%;
+}
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 95%;
+    width: 100%;
+}
+.contenedor-footer1{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo1{
+    text-align: center;
+}
+
+.content-foo1 h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo1 p{
+    color: #ccc;
+}
+
+.titulo-final1{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
